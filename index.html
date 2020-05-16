@@ -1,25 +1,58 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>My test page</title>
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <h1>Mozilla is cool</h1>
-    <img src="images/firefox-icon.png" alt="The Firefox logo: a flaming fox surrounding the Earth.">
 
-    <p>At Mozilla, we’re a global community of</p>
+<head>
+     <title>HTML Application</title>
+	 <link href="css/site.css" rel="stylesheet">
+</head>
 
-    <ul> <!-- changed to list in the tutorial -->
-      <li>technologists</li>
-      <li>thinkers</li>
-      <li>builders</li>
-    </ul>
+<body>
+    <div class="main-container">
+        <div class="cloud-image">
+            <img src="img/successCloudNew.svg" />
+        </div>
+        <div class="content">
+            <div class="tweet-container">
+            <a href="http://twitter.com/intent/tweet/?text=I%20just%20created%20a%20new%20HTML%20website%20on%20Azure%20using%20Azure%20DevOps%20Project&hashtags=AzureDevOpsProject%2CVSTS%20%40Azure%20%40VSTS">
+                <img src="img/tweetThis.svg" />
+            </a>            
+        </div>
+            <div class="content-body">
+                <div class="success-text">Success!</div>
+                <div class="description line-1"> Azure DevOps Project has been successfully setup</div>
+                <div class="description line-2"> Your HTML app is up and running on Azure</div>
+                <div class="next-steps-container">
+                    <div class="next-steps-header">Next up</div>
+                    <div class="next-steps-body">
+                        <div class="step">
+                            <div class="step-icon">
+                                <img src="img/cloneWhite.svg">
+                            </div>
+                            <div class="step-text"><a href="https://go.microsoft.com/fwlink/?linkid=862409">Clone your code repository and start developing your application on IDE of your choice</a></div>
+                        </div>
+                        <div class="step">
+                            <div class="step-icon">
+                                <img src="img/deployWhite.svg">
+                            </div>
+                            <div class="step-text"><a href="https://go.microsoft.com/fwlink/?linkid=862410">View your CI/CD pipeline on Visual Studio Team Services and customize it as per your needs</a></div>
+                        </div>
+                        <div class="step">
+                            <div class="step-icon">
+                                <img src="img/stackWhite.svg">
+                            </div>
+                            <div class="step-text"><a href="http://portal.azure.com">View your service stack in the Azure Portal</a></div>
+                        </div>
+                        <div class="step">
+                            <div class="step-icon">
+                                <img src="img/lightbulbWhite.svg">
+                            </div>
+                            <div class="step-text"><a href="https://go.microsoft.com/fwlink/?linkid=862126">Learn more about all you can do with Azure projects by visiting the documentation</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 
-    <p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
-
-    <p>Read the <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a> to learn even more about the values and principles that guide the pursuit of our mission.</p>
-  </body>
 </html>
